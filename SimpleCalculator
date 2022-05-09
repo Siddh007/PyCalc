@@ -1,0 +1,14 @@
+a = int(input("Write your first number: "))
+c = str(input("+ , - , x , /"))
+b = int(input("Write your second number: "))
+
+if c == "+":
+    print(a+b)
+elif c == "-":
+    print(a-b)
+elif c == "x" or "X" or "*":
+    print(a*b)
+elif c == "/":
+    print(a/b)
+else:
+    print("Not valid!")
